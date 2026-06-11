@@ -1,16 +1,105 @@
-# React + Vite
+# React Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview
 
-Currently, two official plugins are available:
+This project is a simple **React Todo Application** built while learning React fundamentals. The application is divided into reusable components and demonstrates how to structure a React project using JSX, CSS, and component-based architecture.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Component-based design
+* Separate components for:
 
-## Expanding the ESLint configuration
+  * App Name
+  * Add Todo Form
+  * Todo Items
+* Custom styling using CSS
+* Basic React JSX syntax
+* Organized project structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Technologies Used
+
+* React
+* Vite
+* JavaScript (ES6+)
+* JSX
+* CSS
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+│
+├── components/
+│   ├── AppName.jsx
+│   ├── AddTodo.jsx
+│   ├── TodoItem1.jsx
+│   └── TodoItem2.jsx
+│
+├── App.jsx
+├── App.css
+├── main.jsx
+│
+└── index.css
+```
+
+---
+
+## 📖 What I Learned
+
+* Creating and using React components
+* Importing and exporting components
+* Using JSX syntax
+* Applying CSS styles in React
+* Difference between `class` and `className`
+* Organizing code into reusable components
+* Rendering components inside the main App component
+
+---
+
+## ▶️ Getting Started
+
+### Clone the Repository
+
+```bash
+git clone <repository-url>
+```
+
+### Navigate to Project Directory
+
+```bash
+cd project-name
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Run Development Server
+
+```bash
+npm run dev
+```
+
+---
+
+## 🎯 Future Improvements
+
+* Add dynamic todo functionality
+* Delete todo items
+* Mark tasks as completed
+* Store todos using Local Storage
+* Improve UI with Bootstrap
+
+---
+
+## 📄 License
+
+This project was created for learning and practice purposes.
